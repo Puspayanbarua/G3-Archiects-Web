@@ -63,6 +63,47 @@ nav li a{
     width: 100%;
     margin-top: 20px;
 }
+/* main section style */
+main{
+    max-width: 1200px;
+    margin: 70px auto;
+}
+/* Features Section Style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-title .quick{
+    font-size: 45px;
+    color: #727272;
+    font-weight: 500;
+}
+.team-title .of-our{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+.team-title .features{
+    font-size: 45px;
+    color: #FF900E;
+    font-weight: 700;
+}
+.team-description{
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 /* Responsive styles */
 @media screen and (max-width: 576px) {
     header{
